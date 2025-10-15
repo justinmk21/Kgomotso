@@ -316,7 +316,7 @@ html {
   .profile-section,
   .projects-section,
   .project-card {
-    max-width: 98%;
+    max-width: 95%;
   }
 }
 
@@ -329,6 +329,26 @@ html {
     gap: 30px;
     margin-top: 24px;
     flex-direction: column-reverse;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .project-title {
+    font-size: 24px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+
+  .project-link {
+    font-size: 14px;
+  }
+
+  .social-link {
+    font-size: 14px;
   }
 
   .profile-pic {
@@ -344,8 +364,9 @@ html {
   }
 
   .project-details {
-    padding: 24px;
+    padding: 12px;
     max-width: 100%;
+    overflow: auto;
   }
 
   .project-image {
@@ -366,6 +387,7 @@ html {
   .name-header {
     font-size: 24px;
   }
+
   .bio {
     font-size: 14px;
   }
