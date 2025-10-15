@@ -341,6 +341,9 @@ html {
 
   .project-description {
     font-size: 16px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .project-link {
@@ -356,17 +359,17 @@ html {
   }
 
   .project-card {
-    flex-direction: column;
     height: auto;
-    min-height: unset;
     max-width: 100%;
+    min-height: unset;
     margin-bottom: 32px;
+    flex-direction: column;
   }
 
   .project-details {
     padding: 12px;
     max-width: 100%;
-    overflow: auto;
+    min-height: 300px;
   }
 
   .project-image {
