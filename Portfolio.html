@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kgomotso</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <p class="name">Kgomotso Mkhawane</p>
+
+      <nav class="nav-links">
+        <ul class="links">
+          <li><a href="#about">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="profile-section">
+      <article class="profile-intro">
+        <h3 class="job-title-header">FULL STACK DEVELOPER</h3>
+        <h1 class="name-header">Hello, my name is Kgomotso Mkhawane</h1>
+        <p class="bio">
+          I am a passionate developer with experience in building dynamic web
+          applications.
+        </p>
+        <div class="social-links">
+          <a href="#projects" class="social-link">Projects</a>
+          <a
+            href="https://github.com/justinmk21"
+            class="social-link"
+            style="border: 2px solid #25282b; background-color: white"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </article>
+
+      <article class="profile-image">
+        <img src="kg.jpg" alt="Profile Picture" class="profile-pic" />
+      </article>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Projects</h2>
+      <span class="line"></span>
+      <div class="project-underline">
+        <span class="underline"></span>
+      </div>
+      <div class="project-cards-container">
+        <article class="project-card">
+          <div class="project-details">
+            <h3 class="project-title">Lenature Cosmetics</h3>
+            <p class="project-description">
+              A web application for a cosmetics brand, showcasing products and
+              allowing users to make purchases.
+            </p>
+            <a
+              href="https://justinmk21.github.io/Lenature/"
+              class="project-link"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+
+          <div class="project-image">
+            <img
+              src="brush.jpg"
+              alt="Lenature Cosmetics Project"
+              class="project-pic"
+            />
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-details">
+            <h3 class="project-title">Password Manager</h3>
+            <p class="project-description">
+              A web application for securely storing and managing passwords.
+            </p>
+            <a
+              href="https://lenature-cosmetics.vercel.app/"
+              class="project-link"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+
+          <div class="project-image">
+            <img
+              src="security.jpg"
+              alt="Lenature Cosmetics Project"
+              class="project-pic"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Contact Me</h2>
+      <span class="line"></span>
+      <div class="contact-underline">
+        <span class="underline"></span>
+      </div>
+      <form
+        action="https://formspree.io/f/mgebjvdp"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <label for="name" class="form-label">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            class="form-input"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="_replyto"
+            required
+            class="form-input"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            required
+            class="form-textarea"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+    </section>
+  </body>
+
+  <footer class="footer">
+    <div class="icons">
+      <a
+        href="https://linkedin.com/in/kgomotso-mkhawane-4769bb219/"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="mailto:kgomotsomkhawane2001@email.com" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a
+        href="https://github.com/justinmk21"
+        target="_blank"
+        aria-label="GitHub"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+    <p class="footer-text">© 2025 Kgomotso Mkhawane.</p>
+  </footer>
+</html>
